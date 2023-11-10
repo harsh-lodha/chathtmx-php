@@ -12,23 +12,23 @@ git clone (Install the library)
 https://www.php.net/downloads (download php)
 
 ### Add php to environment variable : 
-Search -> Edit the System Environment Variable -> Environment Variable -> 
-System Variable -> Path -> Edit -> 
-New -> C:\your\path\to\php\installation (C:\Program Files\php-8.2.12-Win32-vs16-x64\)
+Search -> Edit the System Environment Variable -> Environment Variable -> <br>
+System Variable -> Path -> Edit -> <br>
+New -> C:\your\path\to\php\installation (C:\Program Files\php-8.2.12-Win32-vs16-x64\)<br>
 
 ### enable extensions and curl library
-In the php installation directory , open 'C:\Program Files\php-8.2.12-Win32-vs16-x64\php.ini-development'
-Remove semicolon in folowing lines :
-;extension_dir = "ext" -> extension_dir = "ext"
-;extension=curl -> extension=curl
+In the php installation directory , open 'C:\Program Files\php-8.2.12-Win32-vs16-x64\php.ini-development'<br>
+Remove semicolon in folowing lines :<br>
+;extension_dir = "ext" -> extension_dir = "ext"<br>
+;extension=curl -> extension=curl<br>
 
 # Usage
-Install the requirements 
-`python -m requirements.txt`
-Start the Flask server (default port: 5000)
-`python api.py`
-Start the php server(in new terminal)
-`php -S localhost:12345`
+Install the requirements <br>
+`python -m requirements.txt`<br>
+Start the Flask server (default port: 5000)<br>
+`python api.py`<br>
+Start the php server(in new terminal)<br>
+`php -S localhost:12345`<br>
 
 # UI
-![Alt text](image.png)
+![Alt text](./image.png)
