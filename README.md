@@ -5,7 +5,7 @@
 
 # Installation
 
-git clone (Install the library)
+`git clone https://github.com/harsh-lodha/chathtmx-php.git`
 
 ### php installation
 
@@ -19,8 +19,8 @@ New -> C:\your\path\to\php\installation (C:\Program Files\php-8.2.12-Win32-vs16-
 ### enable extensions and curl library
 In the php installation directory , open 'C:\Program Files\php-8.2.12-Win32-vs16-x64\php.ini-development'<br>
 Remove semicolon in folowing lines :<br>
-;extension_dir = "ext" -> extension_dir = "ext"<br>
-;extension=curl -> extension=curl<br>
+`;extension_dir = "ext"` -> `extension_dir = "ext"`<br>
+`;extension=curl` -> `extension=curl`<br>
 
 # Usage
 Install the requirements <br>
